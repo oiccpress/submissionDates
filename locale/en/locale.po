@@ -1,0 +1,8 @@
+msgid "plugins.submissionDates.revised.displayName"
+msgstr "Revised Date"
+
+msgid "plugins.submissionDates.received.displayName"
+msgstr "Received Date"
+
+msgid "plugins.submissionDates.accepted.displayName"
+msgstr "Accepted Date"
