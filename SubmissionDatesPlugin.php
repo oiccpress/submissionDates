@@ -76,6 +76,10 @@ class SubmissionDatesPlugin extends GenericPlugin {
             $publication->setData( 'submission_dates__accepted', $params['submission_dates__accepted'] );
         }
 
+        if(isset($params['submission_dates__received'])) {
+            $publication->setData( 'submission_dates__received', $params['submission_dates__received'] );
+        }
+
     }
 
     public function addPublicationFormFields(string $hookName, FormComponent $form): void
